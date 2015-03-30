@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- XES version 1.0 -->
+<!-- Created by Fluxicon Disco (http://fluxicon.com/disco/ -->
+<!-- (c) 2012 Fluxicon Process Laboratories - http://fluxicon.com/ -->
+<log xes.version="1.0" xmlns="http://www.xes-standard.org" xes.creator="Fluxicon Disco">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<global scope="trace">
+		<string key="concept:name" value="name"/>
+	</global>
+	<global scope="event">
+		<string key="concept:name" value="name"/>
+		<string key="lifecycle:transition" value="transition"/>
+		<string key="activity" value="string"/>
+	</global>
+	<classifier name="Activity" keys="activity"/>
+	<string key="lifecycle:model" value="standard"/>
+	<string key="creator" value="Fluxicon Disco"/>
+	<string key="library" value="Fluxicon Octane"/>
+	<trace>
+		<string key="concept:name" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="i"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="i"/>
+		</event>
+		<event>
+			<string key="concept:name" value="a"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="a"/>
+		</event>
+		<event>
+			<string key="concept:name" value="b"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="b"/>
+		</event>
+		<event>
+			<string key="concept:name" value="c"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="c"/>
+		</event>
+		<event>
+			<string key="concept:name" value="e"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="e"/>
+		</event>
+		<event>
+			<string key="concept:name" value="f"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="f"/>
+		</event>
+		<event>
+			<string key="concept:name" value="g"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="g"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="i"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="i"/>
+		</event>
+		<event>
+			<string key="concept:name" value="a"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="a"/>
+		</event>
+		<event>
+			<string key="concept:name" value="b"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="b"/>
+		</event>
+		<event>
+			<string key="concept:name" value="c"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="c"/>
+		</event>
+		<event>
+			<string key="concept:name" value="f"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="f"/>
+		</event>
+		<event>
+			<string key="concept:name" value="e"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="e"/>
+		</event>
+		<event>
+			<string key="concept:name" value="g"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="g"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="i"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="i"/>
+		</event>
+		<event>
+			<string key="concept:name" value="a"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="a"/>
+		</event>
+		<event>
+			<string key="concept:name" value="b"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="b"/>
+		</event>
+		<event>
+			<string key="concept:name" value="d"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="d"/>
+		</event>
+		<event>
+			<string key="concept:name" value="f"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="f"/>
+		</event>
+		<event>
+			<string key="concept:name" value="g"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="g"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="i"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="i"/>
+		</event>
+		<event>
+			<string key="concept:name" value="b"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="b"/>
+		</event>
+		<event>
+			<string key="concept:name" value="a"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="a"/>
+		</event>
+		<event>
+			<string key="concept:name" value="c"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="c"/>
+		</event>
+		<event>
+			<string key="concept:name" value="e"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="e"/>
+		</event>
+		<event>
+			<string key="concept:name" value="f"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="f"/>
+		</event>
+		<event>
+			<string key="concept:name" value="g"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="g"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="i"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="i"/>
+		</event>
+		<event>
+			<string key="concept:name" value="b"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="b"/>
+		</event>
+		<event>
+			<string key="concept:name" value="a"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="a"/>
+		</event>
+		<event>
+			<string key="concept:name" value="c"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="c"/>
+		</event>
+		<event>
+			<string key="concept:name" value="f"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="f"/>
+		</event>
+		<event>
+			<string key="concept:name" value="e"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="e"/>
+		</event>
+		<event>
+			<string key="concept:name" value="g"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="g"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="i"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="i"/>
+		</event>
+		<event>
+			<string key="concept:name" value="b"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="b"/>
+		</event>
+		<event>
+			<string key="concept:name" value="a"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="a"/>
+		</event>
+		<event>
+			<string key="concept:name" value="d"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="d"/>
+		</event>
+		<event>
+			<string key="concept:name" value="f"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="f"/>
+		</event>
+		<event>
+			<string key="concept:name" value="g"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="g"/>
+		</event>
+	</trace>
+	
+	<trace>
+		<string key="concept:name" value="7"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="i"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="i"/>
+		</event>
+		<event>
+			<string key="concept:name" value="a"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="a"/>
+		</event>
+		<event>
+			<string key="concept:name" value="b"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="b"/>
+		</event>
+		<event>
+			<string key="concept:name" value="c"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="c"/>
+		</event>
+		<event>
+			<string key="concept:name" value="f"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="f"/>
+		</event>
+		<event>
+			<string key="concept:name" value="g"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="g"/>
+		</event>
+	</trace>
+
+	<trace>
+		<string key="concept:name" value="8"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="i"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="i"/>
+		</event>
+		<event>
+			<string key="concept:name" value="b"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="b"/>
+		</event>
+		<event>
+			<string key="concept:name" value="a"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="a"/>
+		</event>
+		<event>
+			<string key="concept:name" value="c"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="c"/>
+		</event>
+		<event>
+			<string key="concept:name" value="f"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="f"/>
+		</event>
+		<event>
+			<string key="concept:name" value="g"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="activity" value="g"/>
+		</event>
+	</trace>
+	
+</log>
