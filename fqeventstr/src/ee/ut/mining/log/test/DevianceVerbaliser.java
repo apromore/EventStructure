@@ -43,7 +43,7 @@ public class DevianceVerbaliser {
 		
 	public void getAllDifferences(String[] args) throws Exception {
 		double t = System.currentTimeMillis();
-		
+
 		String model1, model2, inputfolder, outputfolder, fileNameTrace1, fileNameTrace2;
 		String primeOutput = "";
 		String freqOutput = "";
@@ -65,6 +65,9 @@ public class DevianceVerbaliser {
 			fileNameTrace1 = inputfolder + "%" + "s" + model1.substring(model1.lastIndexOf("."));
 			fileNameTrace2 = inputfolder + "%" + "s" + model2.substring(model2.lastIndexOf("."));
 			
+			model1 = model1.substring(0, model1.lastIndexOf("."));
+			model2 = model2.substring(0, model2.lastIndexOf("."));
+			
 			primeOutput = outputfolder + args[4];
 			freqOutput = outputfolder + args[5];
 			
@@ -75,22 +78,7 @@ public class DevianceVerbaliser {
 		}
 		else {
 			if (args.length == 1) { 
-				switch (args[0]) {
-				case "--version": 
-					System.out.println("Version: " + version);
-					break;
-				case "--about":
-					System.out.println("Deviance Verbaliser");
-					System.out.println();
-					System.out.println("Version: " + version);
-					System.out.println("Build date: " + "22-03-2015");
-					System.out.println();
-
-					System.out.println("Developed by:");
-					System.out.println("Dr. N.R.T.P. van Beest");
-					System.out.println("Dr. L. Garcia-Bañuelos");
-					break;
-				}
+				checkAdditionalOptions(args[0]);
 				return;
 			}
 			
@@ -124,6 +112,25 @@ public class DevianceVerbaliser {
 		
 		// print total execution time
 		System.out.println(System.currentTimeMillis() - t + " ms");
+	}
+	
+	private void checkAdditionalOptions(String option) {
+		switch (option) {
+		case "--version": 
+			System.out.println("Version: " + version);
+			break;
+		case "--about":
+			System.out.println("ProDelta");
+			System.out.println();
+			System.out.println("Version: " + version);
+			System.out.println("Build date: " + "22-03-2015");
+			System.out.println();
+
+			System.out.println("Developed by:");
+			System.out.println("Dr. N.R.T.P. van Beest");
+			System.out.println("Dr. L. Garcia-Bañuelos");
+			break;
+		}
 	}
 	
 	class Executor implements Runnable {
@@ -200,7 +207,7 @@ public class DevianceVerbaliser {
 			psp.shortestPathDijkstra();
 			
 			for (String diff: diffset) {
-				totaldiff += "DIFF: " + diff + "\n";
+				totaldiff += "DIFF: " + diff + "\r\n";
 			}
 			
 			
