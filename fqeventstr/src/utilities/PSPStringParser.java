@@ -26,7 +26,7 @@ public class PSPStringParser {
 			statement = pspdot.substring(pos, posend);
 			
 			if (!statement.startsWith("match")) {
-				if (!curhide) hides += "\r\n"; 
+				if ((!curhide) && (hides != "")) hides += "\r\n"; 
 				hides += statement + "\r\n";
 				curhide = true;
 			}
@@ -37,7 +37,7 @@ public class PSPStringParser {
 			pos = pspdot.indexOf("->", pos + 1);
 		}
 		
-		return hides.substring(1); //remove first carriage return
+		return hides; //remove first carriage return
 	}
 	
 }
